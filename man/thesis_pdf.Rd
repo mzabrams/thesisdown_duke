@@ -21,6 +21,6 @@ to specify using the Reed College Senior Thesis LaTeX template and cls files.
 }
 \examples{
 \dontrun{
- output: thesisdown::thesis_pdf
+ output: thesisdowndss::thesis_pdf
 }
 }

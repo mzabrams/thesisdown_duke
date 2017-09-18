@@ -1,5 +1,4 @@
-#' thesisdown: A package for creating undergraduate, Masters, and PhD theses
-#'using R Markdown
+#' thesisdowndss: A package for creating Duke Statistical Science undergraduate theses using R Markdown
 #'
 #'
 #' @section thesis_gitbook:
@@ -11,5 +10,5 @@
 #' @section thesis_epub:
 #' Creates an R Markdown thesis template as an ebook
 #' @docType package
-#' @name thesisdown
+#' @name thesisdowndss
 NULL

@@ -10,7 +10,7 @@
 #'   template
 #' @examples
 #' \dontrun{
-#'  output: thesisdown::thesis_pdf
+#'  output: thesisdowndss::thesis_pdf
 #' }
 thesis_pdf <- function(toc = TRUE, toc_depth = 3, ...){
 
@@ -43,7 +43,7 @@ thesis_pdf <- function(toc = TRUE, toc_depth = 3, ...){
 #' @return A gitbook webpage
 #' @examples
 #' \dontrun{
-#'  output: thesisdown::thesis_gitbook
+#'  output: thesisdowndss::thesis_gitbook
 #' }
 thesis_gitbook <- function(...){
 
@@ -74,7 +74,7 @@ thesis_gitbook <- function(...){
 #' the Reed Senior Thesis Word template
 #' @examples
 #' \dontrun{
-#'  output: thesisdown::thesis_word
+#'  output: thesisdowndss::thesis_word
 #' }
 thesis_word <- function(...){
 
@@ -97,7 +97,7 @@ thesis_word <- function(...){
 #' @return A ebook version of the thesis
 #' @examples
 #' \dontrun{
-#'  output: thesisdown::thesis_epub
+#'  output: thesisdowndss::thesis_epub
 #' }
 thesis_epub <- function(...){
 
