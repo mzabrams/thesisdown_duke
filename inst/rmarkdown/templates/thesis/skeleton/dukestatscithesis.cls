@@ -348,6 +348,7 @@
 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\hrulefill} \fi}
   \centerline{\makebox[\wd0][c]{\@advisor}
 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\@altadvisor} \fi}
+  \centerline{\makebox[\wd0][c]{\@committeememberone}
   \centerline{(\@committeememberone)} % committee member 1
 	\centerline{(\@committeemembertwo)} % committee member 1
 	\centerline{(\@dus)} % committee member 1
