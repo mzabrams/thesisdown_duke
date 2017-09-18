@@ -1,9 +1,11 @@
-% This is the Reed College LaTeX thesis template. Most of the work
-% for the document class was done by Sam Noble (SN), as well as this
-% template. Later comments etc. by Ben Salzberg (BTS). Additional
-% restructuring and APA support by Jess Youngberg (JY).
-% Your comments and suggestions are more than welcome; please email
-% them to cus@reed.edu
+% This is the Duke University Statistical Science LaTeX thesis template.
+% It has been adapted from the Reed College LaTeX thesis template. The
+% adaptation was done by Mine Cetinkaya-Rundel (MCR). Some of the comments
+% that are specific to Reed College have been removed.
+%
+% Most of the work on the original Reed College document class and template
+% was done by Sam Noble (SN). Later comments etc. by Ben Salzberg (BTS).
+% Additional restructuring and APA support by Jess Youngberg (JY).
 %
 % See https://www.reed.edu/cis/help/latex/ for help. There are a
 % great bunch of help pages there, with notes on
@@ -16,15 +18,11 @@
 % Commenting also removes a line from the document;
 % very handy for troubleshooting problems. -BTS
 
-% As far as I know, this follows the requirements laid out in
-% the 2002-2003 Senior Handbook. Ask a librarian to check the
-% document before binding. -SN
-
 %%
 %% Preamble
 %%
 % \documentclass{<something>} must begin each LaTeX document
-\documentclass[12pt,twoside]{reedthesis}
+\documentclass[12pt,twoside]{dukestatscithesis}
 % Packages are extensions to the basic LaTeX functions. Whatever you
 % want to typeset, there is probably a package out there for it.
 % Chemistry (chemtex), screenplays, you name it.
@@ -74,7 +72,6 @@
 \author{$author$}
 % The month and year that you submit your FINAL draft TO THE LIBRARY (May or December)
 \date{$date$}
-\division{$division$}
 \advisor{$advisor$}
 \institution{$institution$}
 \degree{$degree$}
@@ -87,13 +84,6 @@ $endif$
 
 %%% Remember to use the correct department!
 \department{$department$}
-% if you're writing a thesis in an interdisciplinary major,
-% uncomment the line below and change the text as appropriate.
-% check the Senior Handbook if unsure.
-%\thedivisionof{The Established Interdisciplinary Committee for}
-% if you want the approval page to say "Approved for the Committee",
-% uncomment the next line
-%\approvedforthe{Committee}
 
 % Added by CII
 %%% Copied from knitr
