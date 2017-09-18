@@ -17,10 +17,10 @@ A fairly standard outline is as follows:
 - **Chapter 1. Introduction** (setting, problem description, citations, etc.)
 - **Chapter 2. Literature review**
 - **A Next Chapter:** Some papers have one or two chapters, some papers have several. Keep chapters relatively short: Each section should have one focus. For example,
-  - **Chapter 3. New Statistical Models** (theory, ideas)
-  - **Chapter 4. Some Computational Issues**
-  - **Chapter 5. Simulated Data** (evaluation of models)
-  - **Chapter 6. Application** (real motivating problem and data)
+    + **Chapter 3. New Statistical Models** (theory, ideas)
+    + **Chapter 4. Some Computational Issues**
+    + **Chapter 5. Simulated Data** (evaluation of models)
+    + **Chapter 6. Application** (real motivating problem and data)
 ...
 - **Chapter X. Conclusion** (what was done, what was learned, what was good/bad, where research might or could go next) 
 - **Appendix** (maybe some extra math, details of code)
