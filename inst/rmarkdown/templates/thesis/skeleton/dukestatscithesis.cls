@@ -317,10 +317,6 @@
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
-    In Partial Fulfillment \\
-    of the Requirements for the Degree \\
-    \@degree
-    \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \bigskip
     \centerline{}
