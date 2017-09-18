@@ -202,22 +202,18 @@
 \def\@division{\@latex@warning@no@line{No \noexpand\division given}}
 \def\department#1{\gdef \@department{#1}}
 \def\@department{\@latex@warning@no@line{No \noexpand\department given}}
-\def\thedivisionof#1{\gdef \@thedivisionof{#1}}
-\def\@thedivisionof{The Division of}
-\def\approvedforthe#1{\gdef \@approvedforthe{#1}}
-\def\@approvedforthe{Division}
-\def\advisor#1{\gdef \@advisor{#1}}
-\def\@advisor{\@latex@warning@no@line{No \noexpand\advisor given}}
-\def\altadvisor#1{\gdef \@altadvisor{#1} \@altadvisortrue}
-\global\let\@altadvisor\@empty
-\newif\if@altadvisor
-\@altadvisorfalse
 \def\committeememberone#1{\gdef \@committeememberone{#1}}
 \def\@committeememberone{\@latex@warning@no@line{No \noexpand\committeememberone given}}
 \def\committeemembertwo#1{\gdef \@committeemembertwo{#1}}
 \def\@committeemembertwo{\@latex@warning@no@line{No \noexpand\committeemembertwo given}}
 \def\dus#1{\gdef \@dus{#1}}
 \def\@dus{\@latex@warning@no@line{No \noexpand\dus given}}
+\def\advisor#1{\gdef \@advisor{#1}}
+\def\@advisor{\@latex@warning@no@line{No \noexpand\advisor given}}
+\def\altadvisor#1{\gdef \@altadvisor{#1} \@altadvisortrue}
+\global\let\@altadvisor\@empty
+\newif\if@altadvisor
+\@altadvisorfalse
 
 \renewcommand\l@chapter[2]{%
   \ifnum \c@tocdepth >\m@ne
