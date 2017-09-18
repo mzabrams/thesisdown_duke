@@ -1,4 +1,4 @@
-# thesisdown
+# thesisdowndss
 
 This project was inspired by the [bookdown](http://github.com/rstudio/bookdown) and [thesisdown](https://github.com/ismayc/thesisdown) packages.
 
