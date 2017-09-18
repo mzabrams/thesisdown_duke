@@ -5,7 +5,7 @@ This project was inspired by the [bookdown](http://github.com/rstudio/bookdown) 
 Currently, the PDF and gitbook versions are fully-functional. (The word and epub versions are developmental, have no templates behind them, and are essentially calls to the appropriate functions in bookdown. There is no plan to further develop these, in fact, files related to these will be removed in the near future.)
 
 The current outputs for the two functional versions are here:
-- [PDF](https://github.com/ismayc/thesisdown_book/blob/gh-pages/thesis.pdf) (Generating LaTeX file is available [here](https://github.com/ismayc/thesisdown_book/blob/gh-pages/thesis.tex) with other files at in the [book directory](https://github.com/ismayc/thesisdown_book/tree/gh-pages).)
+- [PDF](https://github.com/mine-cetinkaya-rundel/dss-undergrad-thesis/blob/master/index/_book/thesis.pdf) (Generating LaTeX file is available [here](https://mine-cetinkaya-rundel.github.io/dss-undergrad-thesis/) with other files at in the [book directory](https://github.com/mine-cetinkaya-rundel/dss-undergrad-thesis/tree/master/index/_book).)
 - [gitbook](http://ismayc.github.io/thesisdown_book)
 
 Under the hood, the Duke StastSci LaTeX template is used to ensure that documents conform precisely to submission standards. At the same time, composition and formatting can be done using lightweight [markdown](http://rmarkdown.rstudio.com/authoring_basics.html) syntax, and **R** code and its output can be seamlessly included using [rmarkdown](http://rmarkdown.rstudio.com).
