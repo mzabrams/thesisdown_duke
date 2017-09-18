@@ -212,6 +212,12 @@
 \global\let\@altadvisor\@empty
 \newif\if@altadvisor
 \@altadvisorfalse
+\def\committeememberone#1{\gdef \@committeememberone{#1}}
+\def\@committeememberone{\@latex@warning@no@line{No \noexpand\committeememberone given}}
+\def\committeemembertwo#1{\gdef \@committeemembertwo{#1}}
+\def\@committeemembertwo{\@latex@warning@no@line{No \noexpand\committeemembertwo given}}
+\def\dus#1{\gdef \@dus{#1}}
+\def\@dus{\@latex@warning@no@line{No \noexpand\dus given}}
 
 \renewcommand\l@chapter[2]{%
   \ifnum \c@tocdepth >\m@ne
@@ -306,7 +312,7 @@
     \vfil
     A Thesis \\
     Presented to \\
-    \@thedivisionof \ \@division \\
+    \@department \\
     \@institution
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
@@ -342,6 +348,9 @@
 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\hrulefill} \fi}
   \centerline{\makebox[\wd0][c]{\@advisor}
 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\@altadvisor} \fi}
+  \centerline{\makebox[\wd0][c]{\@committeememberone}
+  \centerline{\makebox[\wd0][c]{\@committeemembertwo}
+  \centerline{\makebox[\wd0][c]{\@dus}
   \par\vfil\null}
   \cleardoublepage
   }
