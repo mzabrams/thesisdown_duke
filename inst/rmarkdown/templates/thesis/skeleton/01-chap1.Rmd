@@ -178,6 +178,6 @@ flights %>% filter(month == 3, day == 3) %>%
 
 - _R Markdown_ Reference Guide - <https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf>
 
-- Introduction to `dplyr` - <https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html>
+- `dplyr` Documentation - <http://dplyr.tidyverse.org/>
 
-- `ggplot2` Documentation - <http://docs.ggplot2.org/current/>
+- `ggplot2` Documentation - <http://ggplot2.tidyverse.org/>
