@@ -333,23 +333,26 @@
 %% Approved for the division page
   \cleardoublepage
   {\fontsize{12}{14}
-  \setbox0=\hbox{Approved for the \@approvedforthe}
+  \setbox0=\hbox{Approved for the}
   \thispagestyle{empty}
   \null\vfil		% just below center of page
-  \par\vskip 6cm	% below center, not center
+  \par\vskip 4cm	% below center, not center
   \centerline{\copy0}	% approved
-  \centerline{(\@department)} %major
+  \centerline{\@degree} %major
   \vskip 1cm		%space to sign
   \centerline{\makebox[\wd0][c]{\hrulefill}
 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\hrulefill} \fi}
   \centerline{\makebox[\wd0][c]{\@advisor}
 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\@altadvisor} \fi}
+  \vskip 1cm		%space to sign
   \centerline{\makebox[\wd0][c]{\hrulefill}}
-  \centerline{(\@committeememberone)} % committee member 1
+  \centerline{\@committeememberone} % committee member 1
+  \vskip 1cm		%space to sign
   \centerline{\makebox[\wd0][c]{\hrulefill}}
-	\centerline{(\@committeemembertwo)} % committee member 2
+	\centerline{\@committeemembertwo} % committee member 2
+  \vskip 1cm		%space to sign
   \centerline{\makebox[\wd0][c]{\hrulefill}}
-	\centerline{(\@dus)} % dus
+	\centerline{\@dus, DUS} % dus
   \par\vfil\null}
   \cleardoublepage
   }
