@@ -21,7 +21,7 @@ A fairly standard outline is as follows:
     + **Chapter 4. Some Computational Issues**
     + **Chapter 5. Simulated Data** (evaluation of models)
     + **Chapter 6. Application** (real motivating problem and data)
-...
+    + ...
 - **Chapter X. Conclusion** (what was done, what was learned, what was good/bad, where research might or could go next) 
 - **Appendix** (maybe some extra math, details of code)
 - **Bibliography** (use bibtex, per the example bib files)
