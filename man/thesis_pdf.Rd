@@ -24,4 +24,3 @@ to specify using the Reed College Senior Thesis LaTeX template and cls files.
  output: thesisdown::thesis_pdf
 }
 }
-
