@@ -24,8 +24,8 @@ To use **thesisdown** from RStudio:
 
 ```S
 install.packages("devtools")
-devtools::install_github("rstudio/bookdown")
-devtools::install_github("ismayc/thesisdown")
+install.packages("bookdown")
+devtools::install_github("mine-cetinkaya-rundel/thesisdowndss")
 ```
 
 3) Use the **New R Markdown** dialog to select **Thesis**:
