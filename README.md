@@ -21,7 +21,7 @@ To use **thesisdowndss** from within RStudio:
 2) Install the **bookdown** and **thesisdown** packages: 
 
 ```S
-install.packages("devtools")
+library("devtools")
 install.packages("bookdown")
 devtools::install_github("mine-cetinkaya-rundel/thesisdowndss")
 ```
