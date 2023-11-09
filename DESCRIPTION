@@ -1,16 +1,17 @@
-Package: thesisdowndss
+Package: thesisdown_duke
 Title: An updated R Markdown thesis template using the bookdown package
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: c(
     person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = "cre"),
     person("Nick", "Solomon", email = "nick@nicksolomon.me", role = "aut"),
-    person("Mine", "Cetinkaya-Rundel", email = "mine@stat.duke.edu", role = "aut"))
+    person("Mine", "Cetinkaya-Rundel", email = "mine@stat.duke.edu", role = "aut"),
+    person("Mitchell", "Abrams", email="mitchell.abrams@duke.edu", role="aut"))
 Description: This is a modified version of the thesisdown package which uses the 
     bookdown package and LaTeX and Word thesis templates from Reed College to
     encourage reproducible research using simple Markdown syntax while embedding 
     all of the R code to produce plots and analyses as well. The modifications made
-    are for use in Duke Statistical Science undergraduagte theses.
-Maintainer: Mine Cetinkaya-Rundel <mine@stat.duke.edu>
+    are for use in Duke Graduate School theses.
+Maintainer: Mitchell Abrams <mitchell.abrams@duke.edu>
 Depends:
     R (>= 3.2.0),
     devtools,
