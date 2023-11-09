@@ -5,7 +5,7 @@ Authors@R: c(
     person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = "cre"),
     person("Nick", "Solomon", email = "nick@nicksolomon.me", role = "aut"),
     person("Mine", "Cetinkaya-Rundel", email = "mine@stat.duke.edu", role = "aut"),
-    person("Mitchell", "Abrams", email="mitchell.abrams@duke.edu", role="aut"))
+    person("Mitchell", "Abrams", email = "mitchell.abrams@duke.edu", role = "aut"))
 Description: This is a modified version of the thesisdown package which uses the 
     bookdown package and LaTeX and Word thesis templates from Reed College to
     encourage reproducible research using simple Markdown syntax while embedding 
